@@ -1,0 +1,10 @@
+{
+	"permission": {                                                 	
+    "scope.userLocation": {                                       	
+			"desc": "不知道为什么要这个权限，但是不给这个权限会出bug"
+    },
+		"scope.accelerometer": {                                      
+			"desc": "获取用户加速度计数据"                           
+		}
+	}
+}

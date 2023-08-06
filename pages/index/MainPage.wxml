@@ -1,0 +1,9 @@
+<view>
+	<camera device-position="front" flash="off" style="margin: 0 auto; width: 500rpx; height: 500rpx;" >
+	</camera>
+</view>
+<button id="lock" type="primary" bindtap="lock">锁定</button>
+<button id="test" type="primary" bindtap="testLength">测量</button>
+<view>
+	<view id="len">{{length}}</view>
+</view>

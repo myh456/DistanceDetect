@@ -1,2 +1,6 @@
 # DistanceDetect
-This is a WeChat mini program demo that can measure the distance between the face and the mobile phone. It can be used normally, but the error is large, and I have not thought of any way to reduce the error for the time being
+这是一个可以测量人脸和手机距离的微信小程序demo。可以正常使用，但是误差较大，而且暂时没想到什么能减少误差的方法
+## 工作原理
+![项目流程图](FlowDiagram.png)
+简单来说就是把手机前置摄像头用了两次来冒充双目摄像头  
+另外，双目摄像头在需要对两个摄像头获取的图像进行像素点匹配，我这个项目只是获取手机距离与人脸的距离，所以直接调用百度API识别了人脸。
